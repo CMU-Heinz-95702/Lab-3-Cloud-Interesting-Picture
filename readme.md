@@ -151,11 +151,29 @@ If you don't do this, Docker will not work. You'll also need to do this for the 
 
 ### 1.3. Test your Docker image locally:
 
--In the **docker** folder, you should have the following structure:
+It a terminal or CMD window, cd to the **docker** folder. For Mac, do this:
+```
+ls
+```
+For Windows, do this:
+```
+dir
+```
+
+You should have the following structure:
 
     docker/
     ├── Dockerfile
     └── ROOT.war
+
+There should ***NOT*** be a file named Dockerfile.txt in this directory. See the note above about Windows extensions. If you have trouble with the next set of commands, the first place to look is the Dockerfile. Make sure it does ***NOT*** contain HTML - if you simply copy the file from github, it might be the HTML version. To be sure, in the terminal, do:
+```
+cat Dockerfile
+```
+or in a Windows CMD window, do:
+```
+type Dockerfile
+```
 
 - in a terminal window (Mac) or CMD window (Windows), in your docker directory, build the docker image with this command (note the space and period at the end); this will take a few seconds, and you'll see docker output scrolling by.
 
@@ -174,7 +192,7 @@ It will display something like this (details will vary; "hello world" will likel
 
         docker run --rm -it -p 8080:8080 interesting_picture
 
-- open a browser window with the address:
+- open a browser window with the address (note: you have to do this manually; the browser window does not open automatically like it does when running in IntelliJ):
 
         http://localhost:8080/
 
