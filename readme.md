@@ -248,6 +248,8 @@ InterestingPicture should run in a browser window.
 
 6. Copy the address in the browser bar; it will have some wacky auto-generated name. Open a new browser tab and copy the address, just to see that this address works on its own.
 
+7. As before, kill the program with ctrl-C.
+
 
 ## Part 3: Cloud and Containers Concepts
 
