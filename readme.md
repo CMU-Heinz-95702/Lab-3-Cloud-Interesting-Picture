@@ -169,7 +169,7 @@ It will display something like this (details will vary; "hello world" will likel
 
         http://localhost:8080/
 
-- you should see your app running. Test it to make sure it works correctly (again, use the port number from the run command if 8080 didn’t work for you). After showing the running app to your TA, kill the program in the CMD or terminal window with ctrl-C.
+- you should see your app running. Test it to make sure it works correctly (again, use the port number from the run command if 8080 didn’t work for you). After showing the running app to your TA, kill the program in the CMD or terminal window with **ctrl-C**.
 
 ---
 
@@ -220,6 +220,8 @@ Save the file; you many have to rename it after that.
 InterestingPicture should run in a browser window.        
 
 6. Copy the address in the browser bar; it will have some wacky auto-generated name. Open a new browser tab and copy the address, just to see that this address works on its own.
+
+Again, stop the running Docker image with **ctrl-C**.
 
 ## Part 3: Cloud and Containers Concepts
 
